@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<! Name: Gursimratpreet Kaur
+Student ID: 991845418>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <link rel="stylesheet" href="A2Style/A2TheStyle.css">
+</head>
+<body>
+    <header>Electronics</header>
+    <ul>
+        <li>
+            <a href="../index.html">Home</a>
+        </li>
+    </ul>
+    <main>
+        <form id="form1">
+            
+            
+            <fieldset id ="shipping">
+                <legend>Shipping Address</legend>
+                <label for="fName">First Name: </label>
+                <input type="text" name="firstName" id="fName" maxlength="20" value="Gursimratpreet"/><br>
+                <label for ="lName">Last Name: </label>
+                <input type="text" name="lastName" id="lName" maxlength="20" value="Kaur"/><br>
+                <label for="address">Address: </label>
+                <input type="text" name="addressInfo" id="address" maxlength="20" value="1 Main Street"/><br>
+                <label for="city">City:  </label>
+                <input type="text" name="cityInfo" id="city" maxlength="20" value="Brampton"/><br>
+                <label for="email">Email: </label>
+                <input type="text" name="emailInfo" id="email" maxlength="20" value="gur207@gmail.com"/>
+            </fieldset>
+            
+            <fieldset id="order">
+                <legend>Payment Method</legend>
+                <input type="radio" name="radMethod" value="Credit Card" checked>Credit Card<br>
+                <input type="radio" name="radMethod" value="Debit Card">Debit Card<br>
+                <input type="radio" name="radMethod" value="Gift Card">Gift Card
+            </fieldset>
+            <fieldset id="shipment">
+                <legend>Shipment Method</legend>
+                <select name="selMethod" id="shipmentMethod">
+                    <option value="Same Day">Same Day</option>
+                    <option value="Priority">Priority</option>
+                    <option value="Mail">Mail</option>
+                </select>
+            </fieldset>
+        </form>
+        <form  action="../index.html">
+            <fieldset id="summary">
+                <legend>Products Ordered</legend>
+                <fieldset id="txtDisplay">
+                    Product 1: 0 units<br>
+                    Product 2: 0 units<br>
+                    Product 3: 0 units<br>
+                    Product 4: 0 units<br><br>
+                    Credit Card <br>
+                    Same Day <br> <br>
+                    GursimratPreet Kaur <br>
+                    1 Main Street <br>
+                    BrAmpton <br>
+                    gur207@gmail.com
+                </fieldset>
+            </fieldset>
+            <input type="submit" value="Submit Order">         
+        </form>
+   
+
+
+
+
+
+
+
+    </main>
+    <footer>
+        <h1>Company Information</h1>
+        <h3>Name: Gursimratpreet Kaur</h3>
+        <h3>Student Id : 991845418</h3>
+    </footer>
+    <script src="A2Script/A2TheScript.js"></script>
+</body>
+</html>
